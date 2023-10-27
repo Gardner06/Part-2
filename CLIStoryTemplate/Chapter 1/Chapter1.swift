@@ -35,4 +35,4 @@ func scaryCloset(openedCloset : Bool, didntOpenCloset: Bool) -> String {
     }
 }
     
-    
+
