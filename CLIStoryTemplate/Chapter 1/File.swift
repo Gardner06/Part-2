@@ -6,7 +6,7 @@
 //
 
 import Foundation
-var toyLocation = "Basement"
+var toyLocation = ["Basement","Up Stairs","Kitchen"]
 var toyStatus = "Fallen"
 let initialLocation = "Around the house"
     func scaryCloset() {
