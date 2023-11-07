@@ -32,3 +32,34 @@ let initialLocation = "Around the house"
         
     }
 
+
+        struct ScaryBasementStoryView {
+            let story: [String] = [
+                "Once upon a time, there was a little girl named Emily.",
+                "One day, Emily's ball rolled into the dark, spooky basement.",
+                "She gathered her courage and decided to go down and get it.",
+                "The basement was dimly lit, and eerie shadows danced on the walls.",
+                "As Emily descended the creaky stairs, her heart began to race.",
+                "She could hear strange noises coming from the shadows.",
+                "Suddenly, the basement light flickered and went out.",
+                "Emily gasped and clutched her ball tightly.",
+                "In the darkness, she felt something brush against her leg.",
+                "Terrified, she screamed and ran back up the stairs, leaving her ball behind."
+            ]
+            
+        }
+enum heardNoise {
+    case Run
+    case Listen
+    
+    
+    func heardNoise(movement: String) {
+        if movement == "Run" {
+            print("running and screaming")
+        } else if movement == "Listen" {
+            print("She listened out for noises")
+        }
+        
+        
+    }
+}
