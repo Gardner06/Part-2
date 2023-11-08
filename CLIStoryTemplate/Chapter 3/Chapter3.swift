@@ -5,7 +5,7 @@
 import Foundation
 //func chapterThree() {
 
-/// CONDITIONAL / / /
+/// VARIABLES/ / /
 var shadow = false
 var doorLocked = false
 
@@ -32,7 +32,7 @@ func locationNoise(location: Location) -> String {
     case .understairs:
         return "HISSSSSSS"
     case .topofstairs:
-        return "MEOWWWWWWW"
+        return "MEOWWWWWWW!!"
     case .closet:
         return "thump..thump..thump"
     case .basement:
@@ -44,7 +44,6 @@ func locationNoise(location: Location) -> String {
 func chapterThree() {
     var littleGirl = ""
     let catOne = Cat(name: "Howard", age: 25, color: "black", claws: nil)
-    
     if let lG = readLine() {
         littleGirl = lG
     } else {
@@ -111,7 +110,5 @@ func chapterThree() {
     endResult()
     
 }
-
-
 
 
