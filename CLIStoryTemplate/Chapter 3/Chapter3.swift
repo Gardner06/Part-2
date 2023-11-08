@@ -45,8 +45,6 @@ func chapterThree() {
     var littleGirl = ""
     let catOne = Cat(name: "Howard", age: 25, color: "black", claws: nil)
     
-    print("What is the name of the main character in this story?")
-    
     if let lG = readLine() {
         littleGirl = lG
     } else {
@@ -113,6 +111,7 @@ func chapterThree() {
     endResult()
     
 }
+
 
 
 
