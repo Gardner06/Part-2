@@ -44,7 +44,6 @@ func locationNoise(location: Location) -> String {
 func chapterThree() {
     var littleGirl = ""
     let catOne = Cat(name: "Howard", age: 25, color: "black", claws: nil)
-    
     if let lG = readLine() {
         littleGirl = lG
     } else {

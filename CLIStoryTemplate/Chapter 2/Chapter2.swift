@@ -29,7 +29,7 @@ func decisionMaking() {
 func decisionMaking(standStill: Bool, didntstandStill: Bool) -> String {
     if standStill {
         return "She decided to stand still, in order to listen closely"
-    } else { 
+    } else {
         return "She decided to make a run for it without looking back!"
     }
 }
@@ -47,4 +47,3 @@ enum standStill {
         }
     }
 }
-
