@@ -5,10 +5,10 @@
 
 import Foundation
 let title = "The Noises in The Basement"
-let LittleGirlName = "Amanda"
+let LittleGirlName = ["Amanda","Jayla","Dajua","India"]
 var location = "Basement"
 var screechNoise = "errrrr"
-let beingInBasement = "\(LittleGirlName) was in the \(location) she heard a niose"
+let beingInBasement = "\(String(describing: littleGirl)) was in the \(location) she heard a niose"
 var action = "She walked near the sound"
 let result = "saw a fast shadow run by"
 
